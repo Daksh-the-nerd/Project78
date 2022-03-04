@@ -1,0 +1,33 @@
+<html>
+    <head>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+<h1>The Last Kids On Earth Series</h1>
+<img id="image" src="download.jpg">
+<h2 id="heading2" > Book 1 : The Last kids on Earth</h2>
+<button type="button" onclick="change()">Click Me to view the next book</button>;
+
+</center>
+    </body>
+    <script>
+var books = ["download.jpg" , "81VJRDPwPbL.jpg" , "3.jpg"];
+var caption = ["Book 1: Thel Last kids on earth" , "Book 2 : The Zombie Parade" , "Book 3 : Nightmare King" ];  
+var i =0;
+function change ()
+{
+    
+    i++;
+                
+                document.getElementById("image").src = books[i];
+        document.getElementById("heading2").innerHTML = caption[i];
+        console.log(books.length);
+       /*if (i == books.length + 1)
+        {
+            i = 0;*/
+        
+    
+}
+    </script>
+</html>

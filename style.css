@@ -1,0 +1,17 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkgreen;
+}
+button
+{
+    font-size: large;
+    size: 50cm;
+    color: rgb(47, 119, 253);
+    background-color: darkgoldenrod;
+}
+
+img
+{
+    height: 500px;
+    width: 400px;
+}
